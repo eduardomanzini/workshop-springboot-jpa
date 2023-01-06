@@ -8,5 +8,4 @@ import com.educandoweb.corse.entities.Order;
 public interface OrderRepository extends JpaRepository<Order, Long> {
 
 	
-	
 }
