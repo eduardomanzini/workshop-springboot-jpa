@@ -8,5 +8,4 @@ import com.educandoweb.corse.entities.User;
 public interface UserRepository extends JpaRepository<User, Long> {
 
 	
-	
 }
