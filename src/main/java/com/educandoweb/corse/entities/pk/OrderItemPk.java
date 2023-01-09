@@ -5,6 +5,7 @@ import java.io.Serializable;
 import com.educandoweb.corse.entities.Order;
 import com.educandoweb.corse.entities.Product;
 
+
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
