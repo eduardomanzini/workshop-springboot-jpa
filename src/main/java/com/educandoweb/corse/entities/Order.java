@@ -104,7 +104,7 @@ public class Order implements Serializable {
 	}
 
 	public Set<OrderItem> getItems(){
-		return items;
+ 		return items;
 	}
 	
 	public Double getTotal() {

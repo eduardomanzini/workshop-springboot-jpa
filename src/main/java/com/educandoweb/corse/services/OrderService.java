@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.educandoweb.corse.entities.Order;
+
 import com.educandoweb.corse.repositories.OrderRepository;
 
 @Service
@@ -23,6 +24,4 @@ public class OrderService {
 		Optional<Order> obj = repository.findById(id);
 		return obj.get();
 	}
-	
-	
 }
